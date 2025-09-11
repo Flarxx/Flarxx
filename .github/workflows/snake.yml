@@ -22,7 +22,8 @@ jobs:
       - name: Generate animated snake.svg
         run: |
           mkdir -p dist
-          echo 'const fs = require("fs-extra");
+          cat << 'EOF' > snake-temp.js
+const fs = require("fs-extra");
 const axios = require("axios");
 const username = "Flarxx";
 const distPath = "./dist/snake.svg";
@@ -30,7 +31,7 @@ const distPath = "./dist/snake.svg";
 (async () => {
   const html = (await axios.get("https://github.com/users/"+username+"/contributions")).data;
   const rects = html.match(/<rect .*?\/>/g) || [];
-  let animatedRects = rects.map((r, i) => r.replace("/>", " style=\'animation: show 0.1s forwards "+(i*0.05)+"s;\'/>"));
+  let animatedRects = rects.map((r, i) => r.replace("/>", " style='animation: show 0.1s forwards "+(i*0.05)+"s;'/>"));
   let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="110">
 <style>
 @keyframes show { from {opacity:0;} to {opacity:1;} }
@@ -39,7 +40,8 @@ ${animatedRects.join("\n")}
 </svg>`;
   await fs.writeFile(distPath, svgContent, "utf8");
   console.log("Animated snake.svg generado!");
-})();' > snake-temp.js
+})();
+EOF
           node snake-temp.js
 
       - name: Deploy to output branch
@@ -48,4 +50,5 @@ ${animatedRects.join("\n")}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+
 
