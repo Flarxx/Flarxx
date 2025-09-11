@@ -22,9 +22,8 @@ jobs:
           </svg>' > dist/snake.svg
 
       - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v6
+        uses: peaceiris/actions-gh-pages@v3.9.2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
-
