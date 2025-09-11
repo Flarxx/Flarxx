@@ -1,7 +1,7 @@
 name: Generate Snake
 
 on:
-  workflow_dispatch:  # Permite ejecución manual desde Actions
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -21,11 +21,10 @@ jobs:
           <circle cx="50" cy="50" r="40" fill="darkgreen"/>
           </svg>' > dist/snake.svg
 
-      - name: Commit and push to output branch
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add dist/snake.svg
-          git commit -m "Add snake.svg [skip ci]" || echo "No changes to commit"
-          git branch -M output
-          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} output
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v6
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+
