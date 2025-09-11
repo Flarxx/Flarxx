@@ -1,4 +1,4 @@
-name: Generate Animated Snake
+name: Generate Animated Snak
 
 on:
   workflow_dispatch:
