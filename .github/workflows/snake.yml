@@ -4,22 +4,25 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  generate-snake:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Create dist folder
-        run: mkdir -p dist
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install axios fs-extra
 
       - name: Generate snake.svg
         run: |
-          echo '<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-          <rect width="100" height="100" fill="lightgreen"/>
-          <circle cx="50" cy="50" r="40" fill="darkgreen"/>
-          </svg>' > dist/snake.svg
+          mkdir -p dist
+          node generate-snake.js
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3.9.2
