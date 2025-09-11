@@ -1,10 +1,10 @@
-name: Generate Snake
+name: Generate Animated Snake
 
 on:
   workflow_dispatch:
 
 jobs:
-  generate-snake:
+  generate-animated-snake:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,10 +19,32 @@ jobs:
       - name: Install dependencies
         run: npm install axios fs-extra
 
-      - name: Generate snake.svg
+      - name: Generate animated snake.svg
         run: |
           mkdir -p dist
-          node generate-snake.js
+          node -e "
+          const fs = require('fs-extra');
+          const axios = require('axios');
+          const username = 'Flarxx';
+          const distPath = './dist/snake.svg';
+          
+          (async () => {
+            const html = (await axios.get('https://github.com/users/'+username+'/contributions')).data;
+            const rects = html.match(/<rect .*?\/>/g) || [];
+            
+            // Generamos SVG con animación simple estilo snake
+            let animatedRects = rects.map((r, i) => r.replace('/>', ` style='animation: show 0.1s forwards ${i*0.05}s;'/>`));
+            let svgContent = `<svg xmlns='http://www.w3.org/2000/svg' width='800' height='110'>
+<style>
+@keyframes show { from {opacity:0;} to {opacity:1;} }
+</style>
+${animatedRects.join('\n')}
+</svg>`;
+            
+            await fs.writeFile(distPath, svgContent, 'utf8');
+            console.log('Animated snake.svg generado!');
+          })();
+          "
 
       - name: Deploy to output branch
         uses: peaceiris/actions-gh-pages@v3.9.2
