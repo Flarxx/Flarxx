@@ -1,26 +1,54 @@
-const fs = require('fs-extra');
-const axios = require('axios');
+name: Generate Animated Snake
 
-const username = 'Flarxx'; // tu usuario de GitHub
-const distPath = './dist/snake.svg';
+on:
+  workflow_dispatch:
 
-async function getContributions(username) {
-  const url = `https://github.com/users/${username}/contributions`;
-  const res = await axios.get(url);
-  return res.data;
-}
+jobs:
+  generate-animated-snake:
+    runs-on: ubuntu-latest
 
-async function generateSVG() {
-  const html = await getContributions(username);
-  
-  const rects = html.match(/<rect .*?\/>/g) || [];
-  
-  const svgContent = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="110">
-${rects.join('\n')}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install axios fs-extra
+
+      - name: Generate animated snake.svg
+        run: |
+          mkdir -p dist
+          node -e "
+          const fs = require('fs-extra');
+          const axios = require('axios');
+          const username = 'Flarxx';
+          const distPath = './dist/snake.svg';
+          
+          (async () => {
+            const html = (await axios.get('https://github.com/users/'+username+'/contributions')).data;
+            const rects = html.match(/<rect .*?\/>/g) || [];
+            
+            // Generamos SVG con animación simple estilo snake
+            let animatedRects = rects.map((r, i) => r.replace('/>', ` style='animation: show 0.1s forwards ${i*0.05}s;'/>`));
+            let svgContent = `<svg xmlns='http://www.w3.org/2000/svg' width='800' height='110'>
+<style>
+@keyframes show { from {opacity:0;} to {opacity:1;} }
+</style>
+${animatedRects.join('\n')}
 </svg>`;
-  
-  await fs.writeFile(distPath, svgContent, 'utf8');
-  console.log('snake.svg generado!');
-}
+            
+            await fs.writeFile(distPath, svgContent, 'utf8');
+            console.log('Animated snake.svg generado!');
+          })();
+          "
 
-generateSVG();
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3.9.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
