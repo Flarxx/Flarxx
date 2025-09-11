@@ -1,27 +1,32 @@
 name: Generate Snake
 
 on:
-  schedule:
-    - cron: "0 */12 * * *" # Corre cada 12 horas
-  workflow_dispatch: # Permite correrlo manualmente
+  workflow_dispatch: # Permite ejecución manual
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate snake animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: flarxx
-          outputs: dist/snake.svg
+      - name: Set up directories
+        run: |
+          mkdir -p dist
 
-      - name: Push snake.svg to output branch
+      - name: Generate snake.svg
+        run: |
+          cat << 'EOF' > dist/snake.svg
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" fill="lightgreen"/>
+  <circle cx="50" cy="50" r="40" fill="darkgreen"/>
+</svg>
+EOF
+
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
+          folder: dist
           target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
