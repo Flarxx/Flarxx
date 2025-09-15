@@ -41,7 +41,7 @@
       </td>
        <!--Responsive Web Design-->
       <td align="center">
-        <img src="./assets/responsive.png" height="100" alt="IUTEPAL Logo"/>
+        <img src="./assets/Responsive.png" height="100" alt="Responsive Web Design"/>
         <br>
         <img src="https://img.shields.io/badge/%20ResponsiveWebDesign-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
