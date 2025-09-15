@@ -28,7 +28,7 @@
 
 
 <h2>📚 | Education</h2>
-<p>As an engineer committed to lifelong learning, my academic path is both active and aspirational. Having achieved my bachelor's degree, I'm now advancing through my master's program, with the ultimate goal of attaining a doctoral degree.</p><br>
+<p>After obtaining my Associate Degree in Informatics, I have pursued continuous and independent learning with an active and ambitious mindset. My goal is to learn something new every day and transform that knowledge into practical solutions, developing real projects that strengthen both my technical expertise and my ability to innovate.</p><br>
 
 <div align="center">
   <table style="margin-left: auto; margin-right: auto;">
