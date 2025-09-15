@@ -1,34 +1,30 @@
-name: Generate Animated Snake
+name: Generate GitHub contribution snake
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *'   # corre cada 12 horas (ajusta si quieres)
+  workflow_dispatch:        # permite ejecutar manualmente
+  push:
+    branches:
+      - main
 
 jobs:
-  generate-animated-snake:
+  generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Generate snake SVGs
+        uses: Platane/snk/svg-only@v3
         with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install axios fs-extra
-
-      - name: Generate animated snake.svg
-        run: |
-          mkdir -p dist
-          node generate-snake.js
-
-      - name: Deploy to output branch
-        uses: peaceiris/actions-gh-pages@v3.9.2
+          # usa el propietario del repo (tu usuario)
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Publish output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
