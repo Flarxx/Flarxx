@@ -45,6 +45,12 @@
         <br>
         <img src="https://img.shields.io/badge/%20ResponsiveWebDesign-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
+      <!--JavaScript Algorithms and Data Structures-->
+      <td align="center">
+        <img src="./assets/JavaScript.png" height="100" alt="Responsive Web Design"/>
+        <br>
+        <img src="https://img.shields.io/badge/%20JavaScript Algorithms and Data Structures-100%25-brightgreen" alt="JavaScript Algorithms and Data Structures"/>
+      </td>
       <!-- Unity Badge -->
       <td align="center">
         <a href="https://www.credly.com/go/F2X091qZG01mlMizc3xMEA" target="_blank">
