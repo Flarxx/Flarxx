@@ -15,7 +15,9 @@
 <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=900&size=40=true&vCenter=true&width=500&height=70&duration=4000&color=B3B3B3&lines=Hi+There!+👋;+I'm+Radames+Cardenas!;" />
 <h2>📖 | About me</h2> 
 
-🌐  Full-Stack Developer with 2 years of experience, mainly focused on building modern and scalable web applications, particularly administrative systems, with over 10 years of experience in the IT field, specializing in software, hardware, and network maintenance.
+🌐  <p>Full-Stack Developer with 2 years of experience, mainly focused on building modern and scalable web applications, particularly administrative systems, with over 10 years of experience in the IT field, specializing in software, hardware, and network maintenance.</p>
+
+![Snake animation](https://raw.githubusercontent.com/Flarxx/Flarxx/output/github-contribution-grid-snake-dark.svg)
 
 <h2>📚 | Education</h2>
 <p>After obtaining my Associate Degree in Informatics, I have pursued continuous and independent learning with an active and ambitious mindset. My goal is to learn something new every day and transform that knowledge into practical solutions, developing real projects that strengthen both my technical expertise and my ability to innovate.</p><br>
