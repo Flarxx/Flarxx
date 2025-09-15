@@ -76,31 +76,37 @@
 <h2>🛠️ | Languages, Frameworks, and Tools </h2>
 <table>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Backend:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=nodejs,express,python,anaconda,opencv,java,php,laravel,cs,net,spring,go"/></td>
-    </tr>
-    <tr>
         <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Frontend:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=react,nextjs,mui,bootstrap,html,css,js,ts,angular,vue,vuetify"/></td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=html,css,js,react,jquery,bootstrap"/>
+        </td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">DevOps:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=docker,jenkins,githubactions,gcp,aws,prometheus,terraform,azure,kubernetes"/></td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Backend:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=php,python,django"/>
+        </td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Database:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=mysql,postgresql,firebase,graphql,mongodb,redis,elasticsearch"/></td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Database:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=sqlite"/>
+        </td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Version Control:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=github,gitlab,bitbucket"/></td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Version Control:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=git,github"/>
+        </td>
     </tr>
     <tr>
-        <td style="font-weight: bold; padding-right: 10px; vertical-align: center; border: none;">Other Tools:</td>
-        <td><img height="40" src="https://skillicons.dev/icons?i=rabbitmq,grafana"/></td>
+        <td style="font-weight: bold; padding-right: 10px; vertical-align: center;">Other Tools / CMS:</td>
+        <td>
+            <img height="40" src="https://skillicons.dev/icons?i=wordpress,cs"/>
+        </td>
     </tr>
 </table>
-<br>
+
 
 ------
 **Credits :** [codediaz](https://github.com/codediaz)
