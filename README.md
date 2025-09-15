@@ -36,7 +36,7 @@
       <td align="center">
         <img src="./assets/Unity.png" height="100" alt="IUTEPAL Logo"/>
         <br>
-        <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
+        <img src="https://img.shields.io/badge/EssentialsPath%20Unity-100%25-brightgreen" alt="Unity Path"/>
       </td>
     </tr>
      <td align="center">
