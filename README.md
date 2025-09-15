@@ -33,15 +33,16 @@
 <div align="center">
   <table style="margin-left: auto; margin-right: auto;">
     <tr>
-      <!-- IUTEPAL -->
       <td align="center">
-        <img src="https://seeklogo.com/images/I/Iutepal-logo-74320E8D8D-seeklogo.com.png" height="40" alt="IUTEPAL Logo"/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/FreeCodeCamp_logo.png" height="40" alt="FreeCodeCamp Logo"/>
         <br>
-        <strong>IUTEPAL</strong><br>TSU en Informática<br>
+        <strong>FreeCodeCamp</strong><br>Certificados en Desarrollo Web<br>
         <img src="https://progress-bar.dev/100/" width="105" alt="progress-bar"/>
       </td>
-      </table>
-      </div>
+    </tr>
+  </table>
+</div>
+
 
 
 
