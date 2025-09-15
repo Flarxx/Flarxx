@@ -36,7 +36,6 @@
       <td align="center">
         <img src="./assets/logoiutepal.jpg" height="100" alt="IUTEPAL Logo"/>
         <br>
-        <strong>IUTEPAL</strong><br>TSU en Informática<br>
         <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
     </tr>
