@@ -41,11 +41,10 @@
       </td>
       <!-- Unity Badge -->
       <td align="center">
-        <a href="https://www.credly.com/badges/09beda01-f5ba-4380-96e4-a27ffe4303ea" target="_blank">
+        <a href="https://www.credly.com/go/F2X091qZG01mlMizc3xMEA" target="_blank">
           <img src="./assets/Unity.png" height="100" alt="Unity Junior Badge"/>
+          <img src="https://img.shields.io/badge/TSU%20Unity-100%25-brightgreen" alt="Unity Path"/>
         </a>
-        <br>
-        <strong>Unity Junior</strong><br>Pathway
       </td>
     </tr>
   </table>
