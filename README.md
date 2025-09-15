@@ -1,15 +1,16 @@
 [![Matrix SVG](https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg)](https://www.youtube.com/watch?v=SDkAGkd4NLc) 
 <div align="right">
-<a style="text-decoration: none" target="_blank"href="https://github.com/codediaz">
-<img src="https://visitor-badge.laobi.icu/badge?page_id=codediaz.codediaz&left_color=gray&right_color=blue&left_text=Coders%20visitors">
-</a>
-<a style="text-decoration: none" target="_blank" href="https://twitter.com/codediazsergio" >
-<img width="60"src="https://img.shields.io/twitter/follow/chipro?label=Follow&style=social">
-</a>
-<a style="text-decoration: none" target="_blank" href="https://www.linkedin.com/in/sergio-diaz-fernandez/" >
-<img width="70"src="https://img.shields.io/badge/-Connect-blue?style=flat&logo=Linkedin&logoColor=white">
-</a>
+  <!-- GitHub Visitors -->
+  <a style="text-decoration: none" target="_blank" href="https://github.com/Flarxx">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=Flarxx.Flarxx&left_color=gray&right_color=blue&left_text=Profile%20visitors">
+  </a>
+
+  <!-- LinkedIn -->
+  <a style="text-decoration: none" target="_blank" href="https://www.linkedin.com/in/radames-cardenas-1a252930b/">
+    <img width="70" src="https://img.shields.io/badge/-Connect-blue?style=flat&logo=Linkedin&logoColor=white">
+  </a>
 </div>
+
 
 <br>
 
