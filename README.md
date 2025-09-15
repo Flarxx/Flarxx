@@ -39,11 +39,17 @@
         <br>
         <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
+       <!--Responsive Web Design-->
+      <td align="center">
+        <img src="./assets/responsive.png" height="100" alt="IUTEPAL Logo"/>
+        <br>
+        <img src="https://img.shields.io/badge/%20ResponsiveWebDesign-100%25-brightgreen" alt="TSU IUTEPAL"/>
+      </td>
       <!-- Unity Badge -->
       <td align="center">
         <a href="https://www.credly.com/go/F2X091qZG01mlMizc3xMEA" target="_blank">
           <img src="./assets/Unity.png" height="100" alt="Unity Junior Badge"/>
-          <img src="https://img.shields.io/badge/TSU%20Unity-100%25-brightgreen" alt="Unity Path"/>
+          <img src="https://img.shields.io/badge/%20Unity-100%25-brightgreen" alt="Unity Path"/>
         </a>
       </td>
     </tr>
