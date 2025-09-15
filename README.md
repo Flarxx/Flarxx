@@ -34,7 +34,7 @@
   <table style="margin-left: auto; margin-right: auto;">
     <tr>
       <td align="center">
-        <img src="./assets/logoiutepal.jpg" height="40" alt="IUTEPAL Logo"/>
+        <img src="./assets/logoiutepal.jpg" height="100" alt="IUTEPAL Logo"/>
         <br>
         <strong>IUTEPAL</strong><br>TSU en Informática<br>
         <img src="https://progress-bar.dev/100/" width="105" alt="progress-bar"/>
