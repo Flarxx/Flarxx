@@ -33,20 +33,24 @@
 <div align="center">
   <table style="margin-left: auto; margin-right: auto;">
     <tr>
+      <!-- IUTEPAL -->
       <td align="center">
-        <img src="./assets/Unity.png" height="100" alt="IUTEPAL Logo"/>
+        <img src="./assets/logoiutepal.png" height="100" alt="IUTEPAL Logo"/>
         <br>
-        <img src="https://img.shields.io/badge/EssentialsPath%20Unity-100%25-brightgreen" alt="Unity Path"/>
+        <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
-    </tr>
-     <td align="center">
+      <!-- Unity Badge -->
+      <td align="center">
         <a href="https://www.credly.com/badges/09beda01-f5ba-4380-96e4-a27ffe4303ea" target="_blank">
-          <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
+          <img src="./assets/Unity.png" height="100" alt="Unity Junior Badge"/>
         </a>
+        <br>
+        <strong>Unity Junior</strong><br>Pathway
       </td>
     </tr>
   </table>
 </div>
+
 
 
 
