@@ -34,7 +34,7 @@
   <table style="margin-left: auto; margin-right: auto;">
     <tr>
       <td align="center">
-        <img src="./assets/logoiutepal.jpg" height="100" alt="IUTEPAL Logo"/>
+        <img src="./assets/logoiutepal.png" height="100" alt="IUTEPAL Logo"/>
         <br>
         <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
