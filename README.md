@@ -34,9 +34,9 @@
   <table style="margin-left: auto; margin-right: auto;">
     <tr>
       <td align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/FreeCodeCamp_logo.png" height="40" alt="FreeCodeCamp Logo"/>
+        <img src="./assets/logoiutepal.jpg" height="40" alt="IUTEPAL Logo"/>
         <br>
-        <strong>FreeCodeCamp</strong><br>Certificados en Desarrollo Web<br>
+        <strong>IUTEPAL</strong><br>TSU en Informática<br>
         <img src="https://progress-bar.dev/100/" width="105" alt="progress-bar"/>
       </td>
     </tr>
