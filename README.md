@@ -40,27 +40,8 @@
         <strong>IUTEPAL</strong><br>TSU en Informática<br>
         <img src="https://progress-bar.dev/100/" width="105" alt="progress-bar"/>
       </td>
-      <td align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/FreeCodeCamp_logo.png" height="40" alt="FreeCodeCamp Logo"/>
-        <br>
-        <strong>FreeCodeCamp</strong><br>Certificados en Desarrollo Web<br>
-        <img src="https://progress-bar.dev/100/" width="105" alt="progress-bar"/>
-      </td>
-      <td align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Unity_2023_logo.svg" height="40" alt="Unity Logo"/>
-        <br>
-        <strong>Unity</strong><br>Curso Junior (13% completado)<br>
-        <img src="https://progress-bar.dev/13/" width="105" alt="progress-bar"/>
-      </td>
-      <td align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Unity_Technologies_logo.png" height="40" alt="Game Development"/>
-        <br>
-        <strong>Meta Final</strong><br>Desarrollo de Videojuegos<br>
-        <img src="https://progress-bar.dev/0/" width="105" alt="progress-bar"/>
-      </td>
-    </tr>
-  </table>
-</div>
+      </table>
+      </div>
 
 
 
