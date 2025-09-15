@@ -43,8 +43,6 @@
         <a href="https://www.credly.com/badges/09beda01-f5ba-4380-96e4-a27ffe4303ea" target="_blank">
           <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
         </a>
-        <br>
-        <strong>Unity Junior</strong><br>Pathway
       </td>
     </tr>
   </table>
