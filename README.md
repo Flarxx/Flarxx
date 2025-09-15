@@ -68,7 +68,7 @@
       <td align="center">
           <img src="./assets/JuniorProgrammer.png" height="100" alt="Unity Junior Badge"/>
         <br>
-         <img src="https://img.shields.io/badge/JuniorProgrammer-13%25-brightred" alt="Unity JuniorPath"/>
+         <img src="https://img.shields.io/badge/JuniorProgrammer-13%25-red" alt="Unity Path"/>
       </td>
     </tr>
   </table>
