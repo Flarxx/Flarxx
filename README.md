@@ -41,12 +41,14 @@
       </td>
        <!--Responsive Web Design-->
       <td align="center">
+        <a href="[https://www.credly.com/go/F2X091qZG01mlMizc3xMEA](https://www.freecodecamp.org/certification/fccc54259c6-a68e-4f1d-962b-f8376f1faa2f/responsive-web-design)" target="_blank">
         <img src="./assets/Responsive.png" height="100" alt="Responsive Web Design"/>
         <br>
         <img src="https://img.shields.io/badge/%20ResponsiveWebDesign-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
       <!--JavaScript Algorithms and Data Structures-->
       <td align="center">
+        <a href="[https://www.credly.com/go/F2X091qZG01mlMizc3xMEA](https://www.freecodecamp.org/certification/fccc54259c6-a68e-4f1d-962b-f8376f1faa2f/javascript-algorithms-and-data-structures-v8)" target="_blank">
         <img src="./assets/JavaScript.png" height="100" alt="Responsive Web Design"/>
         <br>
         <img src="https://img.shields.io/badge/%20JavaScript Algorithms and Data Structures-100%25-brightgreen" alt="JavaScript Algorithms and Data Structures"/>
