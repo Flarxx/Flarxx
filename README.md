@@ -39,30 +39,34 @@
         <br>
         <img src="https://img.shields.io/badge/TSU%20IUTEPAL-100%25-brightgreen" alt="TSU IUTEPAL"/>
       </td>
-       <!--Responsive Web Design-->
+      <!-- Responsive Web Design -->
       <td align="center">
-        <a href="[https://www.credly.com/go/F2X091qZG01mlMizc3xMEA](https://www.freecodecamp.org/certification/fccc54259c6-a68e-4f1d-962b-f8376f1faa2f/responsive-web-design)" target="_blank">
-        <img src="./assets/Responsive.png" height="100" alt="Responsive Web Design"/>
+        <a href="https://www.freecodecamp.org/certification/fccc54259c6-a68e-4f1d-962b-f8376f1faa2f/responsive-web-design" target="_blank">
+          <img src="./assets/Responsive.png" height="100" alt="Responsive Web Design"/>
+        </a>
         <br>
-        <img src="https://img.shields.io/badge/%20ResponsiveWebDesign-100%25-brightgreen" alt="TSU IUTEPAL"/>
+        <img src="https://img.shields.io/badge/ResponsiveWebDesign-100%25-brightgreen" alt="Responsive Web Design"/>
       </td>
-      <!--JavaScript Algorithms and Data Structures-->
+      <!-- JavaScript Algorithms and Data Structures -->
       <td align="center">
-        <a href="[https://www.credly.com/go/F2X091qZG01mlMizc3xMEA](https://www.freecodecamp.org/certification/fccc54259c6-a68e-4f1d-962b-f8376f1faa2f/javascript-algorithms-and-data-structures-v8)" target="_blank">
-        <img src="./assets/JavaScript.png" height="100" alt="Responsive Web Design"/>
+        <a href="https://www.freecodecamp.org/certification/fccc54259c6-a68e-4f1d-962b-f8376f1faa2f/javascript-algorithms-and-data-structures-v8" target="_blank">
+          <img src="./assets/JavaScript.png" height="100" alt="JavaScript Algorithms and Data Structures"/>
+        </a>
         <br>
-        <img src="https://img.shields.io/badge/%20JavaScript Algorithms and Data Structures-100%25-brightgreen" alt="JavaScript Algorithms and Data Structures"/>
+        <img src="https://img.shields.io/badge/JavaScriptAlgorithmsAndDataStructures-100%25-brightgreen" alt="JavaScript Algorithms and Data Structures"/>
       </td>
       <!-- Unity Badge -->
       <td align="center">
         <a href="https://www.credly.com/go/F2X091qZG01mlMizc3xMEA" target="_blank">
           <img src="./assets/Unity.png" height="100" alt="Unity Junior Badge"/>
-          <img src="https://img.shields.io/badge/%20Unity-100%25-brightgreen" alt="Unity Path"/>
         </a>
+        <br>
+        <img src="https://img.shields.io/badge/Unity-100%25-brightgreen" alt="Unity Path"/>
       </td>
     </tr>
   </table>
 </div>
+
 
 
 
