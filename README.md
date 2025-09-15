@@ -4,30 +4,19 @@
   <a style="text-decoration: none" target="_blank" href="https://github.com/Flarxx">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=Flarxx.Flarxx&left_color=gray&right_color=blue&left_text=Profile%20visitors">
   </a>
-
   <!-- LinkedIn -->
   <a style="text-decoration: none" target="_blank" href="https://www.linkedin.com/in/radames-cardenas-1a252930b/">
     <img width="70" src="https://img.shields.io/badge/-Connect-blue?style=flat&logo=Linkedin&logoColor=white">
   </a>
 </div>
-
-
-<br>
-
 <img src="https://readme-typing-svg.herokuapp.com/?font=Roboto&weight=900&size=40=true&vCenter=true&width=500&height=70&duration=4000&color=B3B3B3&lines=Hi+There!+👋;+I'm+Radames+Cardenas!;" />
-
-
-
 <h2>📖 | About me</h2> 
 🌐  Full-Stack Developer with 2 years of experience, mainly focused on building modern and scalable web applications, particularly administrative systems, with over 10 years of experience in the IT field, specializing in software, hardware, and network maintenance.
-
 <div align="center">
   <br>
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/flarxx/flarxx/output/snake.svg" />
   <br/>
 </div>
-
-
 <h2>📚 | Education</h2>
 <p>After obtaining my Associate Degree in Informatics, I have pursued continuous and independent learning with an active and ambitious mindset. My goal is to learn something new every day and transform that knowledge into practical solutions, developing real projects that strengthen both my technical expertise and my ability to innovate.</p><br>
 
